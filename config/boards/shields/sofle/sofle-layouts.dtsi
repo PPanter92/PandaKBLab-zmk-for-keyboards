@@ -1,12 +1,12 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    layout_0: layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "default_transform";
+        display-name = "LAYOUT";
 
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   60       0     0     0>
@@ -21,7 +21,6 @@
             , <&key_physical_attrs 100 100 1251   13       0     0     0>
             , <&key_physical_attrs 100 100 1351   60       0     0     0>
             , <&key_physical_attrs 100 100 1451   60       0     0     0>
-            , <&key_physical_attrs 100 100 1551   60       0     0     0>
             , <&key_physical_attrs 100 100    0  160       0     0     0>
             , <&key_physical_attrs 100 100  100  160       0     0     0>
             , <&key_physical_attrs 100 100  200  113       0     0     0>
@@ -34,7 +33,6 @@
             , <&key_physical_attrs 100 100 1251  113       0     0     0>
             , <&key_physical_attrs 100 100 1351  160       0     0     0>
             , <&key_physical_attrs 100 100 1451  160       0     0     0>
-            , <&key_physical_attrs 100 100 1551  160       0     0     0>
             , <&key_physical_attrs 100 100    0  261       0     0     0>
             , <&key_physical_attrs 100 100  100  261       0     0     0>
             , <&key_physical_attrs 100 100  200  214       0     0     0>
@@ -47,7 +45,6 @@
             , <&key_physical_attrs 100 100 1251  214       0     0     0>
             , <&key_physical_attrs 100 100 1351  261       0     0     0>
             , <&key_physical_attrs 100 100 1451  261       0     0     0>
-            , <&key_physical_attrs 100 100 1551  261       0     0     0>
             , <&key_physical_attrs 100 100    0  361       0     0     0>
             , <&key_physical_attrs 100 100  100  361       0     0     0>
             , <&key_physical_attrs 100 100  200  314       0     0     0>
@@ -62,7 +59,6 @@
             , <&key_physical_attrs 100 100 1251  314       0     0     0>
             , <&key_physical_attrs 100 100 1351  361       0     0     0>
             , <&key_physical_attrs 100 100 1451  361       0     0     0>
-            , <&key_physical_attrs 100 100 1551  361       0     0     0>
             , <&key_physical_attrs 100 100  200  414       0     0     0>
             , <&key_physical_attrs 100 100  300  401       0     0     0>
             , <&key_physical_attrs 100 100  400  415       0     0     0>
